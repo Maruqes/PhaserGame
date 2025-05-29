@@ -12,7 +12,7 @@ const config: Phaser.Types.Core.GameConfig = {
             debug: false
         }
     },
-    scene: Scene1,
+    scene: [Scene1],
     roundPixels: true,
     parent: document.body,
     scale: {
